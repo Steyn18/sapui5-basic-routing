@@ -1,0 +1,23 @@
+<mvc:View controllerName="sap.com.routing.controller.secondPage"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Shell id="Shell2">
+        <App id="App2">
+            <pages>
+
+
+                <Page id="Page2" title="Second Page" navButtonPress="onBackButton" showNavButton="true">
+                    <content />
+                    <Text id="t2" text="Welcome to secondPage!"></Text>
+
+                    <Button id="button2" text="Back" type="Transparent" press="onBackButton">  
+                    //onBackButton event  will be given in separate button or also can able to access in navButtonPress
+                    </Button>
+
+
+
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

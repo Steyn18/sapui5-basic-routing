@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="sap.com.routing.controller.firstPage"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="Shell1">
+        <App id="App1">
+            <pages>
+                <Page id="page1" title="{i18n>title}">
+                    <content>
+                    <Text id="t1" text="Welcome to firstPage!"></Text>
+                    </content>
+
+                    <Button id="btn1" 
+                            text="Click"
+                            press="onNav"></Button>
+
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
